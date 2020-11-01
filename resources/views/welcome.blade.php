@@ -61,6 +61,7 @@
                     <div class="form-group">
                         <label for="make">Make</label>
                         <input type="text" class="form-control" id="make" required placeholder="Make" name="make" v-model="newCar.make">
+                        {{-- <input type="text" class="form-control" id="make" required placeholder="Make" name="make" :value="this.e_make"> --}}
                     </div>
                                         
                     <div class="form-group">

@@ -38,7 +38,7 @@ const app = new Vue({
         hasError: false,
         cars: [],
         e_id: '',
-        e_make: '',
+        e_make: 'sssssssss',
         e_model: '',
     },
 
