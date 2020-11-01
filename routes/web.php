@@ -21,6 +21,7 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
+// https://codesource.io/build-a-crud-application-using-laravel-and-vue/
 Route::post('/storeCar','App\Http\Controllers\CarsController@storeCar');
 Route::get('/getCars', 'App\Http\Controllers\CarsController@getCars');
 Route::post('/deleteCar/{id}', 'App\Http\Controllers\CarsController@deleteCar');
