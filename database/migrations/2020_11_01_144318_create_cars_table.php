@@ -18,7 +18,6 @@ class CreateCarsTable extends Migration
             $table->string('make',255);
             $table->string('model',255);
             $table->timestamps();
-            $table->timestamps();
         });
     }
 
